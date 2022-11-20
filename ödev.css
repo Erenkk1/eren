@@ -1,0 +1,12 @@
+body{
+    background-color: whitesmoke;
+}
+p#id{
+    color:red;
+}
+p.koyu{
+    color:black;
+}
+p.açık{
+    color:gray;
+}
