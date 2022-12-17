@@ -1,0 +1,16 @@
+body{
+    background-color: antiquewhite;
+}
+.container{
+    display: flex;/*Görünümüne esnekllik vermek için kullanılır */
+    flex-direction: row;/*flex yapısının yönünü belirtmek için kullanılır*/
+    flex-flow: row wrap ;/*flex-direction flexrow kullanmadan ikisninde kullanımını sağlar tek başına */
+    
+
+}
+.container div{
+    border: 2px solid red;
+    width: 250px;
+    height: 50px;
+
+}

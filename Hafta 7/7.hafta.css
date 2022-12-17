@@ -1,0 +1,23 @@
+*{color: blue;
+}
+#idyesil{
+    color: green;
+}
+.classkirmizi{
+    color: red;
+}
+body{
+    background-image:url("indir.jpg") ;
+}
+div{
+    background-color: green;
+}
+div.birinci{
+    opacity: 0.1;
+}
+div.ikinci{
+    opacity: 0.3;
+}
+div.üçüncü{
+    opacity: 0.5;
+}
