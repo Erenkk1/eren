@@ -222,13 +222,13 @@ a:hover
   
   cursor: pointer;
   
-  opacity: 0; /* hide this */
-  z-index: 2; /* and place it over the hamburger */
+  opacity: 0; /* Bunu sakla */
+  z-index: 2; /* ve hamburgerin üzerine koy */
   
   -webkit-touch-callout: none;
 }
 
-/* Just a quick hamburger */
+/* Sadece hızlı bir hamburger */
 #menuToggle span
 {
   display: block;
@@ -259,7 +259,7 @@ a:hover
   transform-origin: 0% 100%;
 }
 
-/* Transform all the slices of hamburger into a crossmark. */
+/* Hamburgerin tüm dilimlerini çarpı işaretine dönüştür. */
 #menuToggle input:checked ~ span
 {
   opacity: 1;
@@ -267,21 +267,21 @@ a:hover
   background: #9c0202;
 }
 
-/* But let's hide the middle one. */
+/* Ama ortadakini saklayalım. */
 #menuToggle input:checked ~ span:nth-last-child(3)
 {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-/* Ohyeah and the last one should go the other direction */
+/* Oheah ve sonuncusu diğer yöne gitmeli */
 #menuToggle input:checked ~ span:nth-last-child(2)
 {
   opacity: 1;
   transform: rotate(-45deg) translate(0, -1px);
 }
 
-/* Make this absolute positioned at the top left of the screen */
+/* Bunu mutlak olarak ekranın sol üst köşesine konumlandırın */
 #menu
 {
   position: absolute;
@@ -294,7 +294,7 @@ a:hover
   
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
-  /* to stop flickering of text in safari */
+ /* Safari'de metnin titremesini durdurmak için */
   
   transform-origin: 0% 0%;
   transform: translate(100%, 0);
@@ -309,7 +309,7 @@ a:hover
 }
 
 /*
- * And let's fade it in from the left
+ * Ve soldan içeri çekelim
  */
 #menuToggle input:checked ~ ul
 {
